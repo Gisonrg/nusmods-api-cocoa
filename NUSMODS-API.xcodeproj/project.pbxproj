@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		98FB6CA41A2AFF8F00F23E25 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 98FB6CA31A2AFF8F00F23E25 /* main.m */; };
+		98FB6CA71A2AFF8F00F23E25 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 98FB6CA61A2AFF8F00F23E25 /* AppDelegate.m */; };
+		98FB6CAA1A2AFF8F00F23E25 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98FB6CA91A2AFF8F00F23E25 /* ViewController.m */; };
+		98FB6CAD1A2AFF8F00F23E25 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98FB6CAB1A2AFF8F00F23E25 /* Main.storyboard */; };
+		98FB6CAF1A2AFF8F00F23E25 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98FB6CAE1A2AFF8F00F23E25 /* Images.xcassets */; };
+		98FB6CB21A2AFF8F00F23E25 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 98FB6CB01A2AFF8F00F23E25 /* LaunchScreen.xib */; };
+		98FB6CBE1A2AFF8F00F23E25 /* NUSMODS_API_iOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 98FB6CBD1A2AFF8F00F23E25 /* NUSMODS_API_iOSTests.m */; };
+		98FB6CCF1A2B005B00F23E25 /* NUSMEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 98FB6CCE1A2B005B00F23E25 /* NUSMEngine.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		98FB6CB81A2AFF8F00F23E25 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 98FB6C961A2AFF8F00F23E25 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98FB6C9D1A2AFF8F00F23E25;
+			remoteInfo = "NUSMODS-API-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		98FB6C9E1A2AFF8F00F23E25 /* NUSMODS-API-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NUSMODS-API-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		98FB6CA21A2AFF8F00F23E25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98FB6CA31A2AFF8F00F23E25 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		98FB6CA51A2AFF8F00F23E25 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		98FB6CA61A2AFF8F00F23E25 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		98FB6CA81A2AFF8F00F23E25 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		98FB6CA91A2AFF8F00F23E25 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		98FB6CAC1A2AFF8F00F23E25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		98FB6CAE1A2AFF8F00F23E25 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		98FB6CB11A2AFF8F00F23E25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		98FB6CB71A2AFF8F00F23E25 /* NUSMODS-API-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NUSMODS-API-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		98FB6CBC1A2AFF8F00F23E25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98FB6CBD1A2AFF8F00F23E25 /* NUSMODS_API_iOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NUSMODS_API_iOSTests.m; sourceTree = "<group>"; };
+		98FB6CCD1A2B005B00F23E25 /* NUSMEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NUSMEngine.h; sourceTree = "<group>"; };
+		98FB6CCE1A2B005B00F23E25 /* NUSMEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NUSMEngine.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		98FB6C9B1A2AFF8F00F23E25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98FB6CB41A2AFF8F00F23E25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		98FB6C951A2AFF8F00F23E25 = {
+			isa = PBXGroup;
+			children = (
+				98FB6CC71A2AFFBA00F23E25 /* NUSMODS-API-Cocoa */,
+				98FB6CA01A2AFF8F00F23E25 /* NUSMODS-API-iOS */,
+				98FB6CBA1A2AFF8F00F23E25 /* NUSMODS-API-iOSTests */,
+				98FB6C9F1A2AFF8F00F23E25 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		98FB6C9F1A2AFF8F00F23E25 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				98FB6C9E1A2AFF8F00F23E25 /* NUSMODS-API-iOS.app */,
+				98FB6CB71A2AFF8F00F23E25 /* NUSMODS-API-iOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		98FB6CA01A2AFF8F00F23E25 /* NUSMODS-API-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				98FB6CA51A2AFF8F00F23E25 /* AppDelegate.h */,
+				98FB6CA61A2AFF8F00F23E25 /* AppDelegate.m */,
+				98FB6CA81A2AFF8F00F23E25 /* ViewController.h */,
+				98FB6CA91A2AFF8F00F23E25 /* ViewController.m */,
+				98FB6CAB1A2AFF8F00F23E25 /* Main.storyboard */,
+				98FB6CAE1A2AFF8F00F23E25 /* Images.xcassets */,
+				98FB6CB01A2AFF8F00F23E25 /* LaunchScreen.xib */,
+				98FB6CA11A2AFF8F00F23E25 /* Supporting Files */,
+			);
+			path = "NUSMODS-API-iOS";
+			sourceTree = "<group>";
+		};
+		98FB6CA11A2AFF8F00F23E25 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				98FB6CA21A2AFF8F00F23E25 /* Info.plist */,
+				98FB6CA31A2AFF8F00F23E25 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		98FB6CBA1A2AFF8F00F23E25 /* NUSMODS-API-iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				98FB6CBD1A2AFF8F00F23E25 /* NUSMODS_API_iOSTests.m */,
+				98FB6CBB1A2AFF8F00F23E25 /* Supporting Files */,
+			);
+			path = "NUSMODS-API-iOSTests";
+			sourceTree = "<group>";
+		};
+		98FB6CBB1A2AFF8F00F23E25 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				98FB6CBC1A2AFF8F00F23E25 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		98FB6CC71A2AFFBA00F23E25 /* NUSMODS-API-Cocoa */ = {
+			isa = PBXGroup;
+			children = (
+				98FB6CCD1A2B005B00F23E25 /* NUSMEngine.h */,
+				98FB6CCE1A2B005B00F23E25 /* NUSMEngine.m */,
+			);
+			name = "NUSMODS-API-Cocoa";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		98FB6C9D1A2AFF8F00F23E25 /* NUSMODS-API-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98FB6CC11A2AFF8F00F23E25 /* Build configuration list for PBXNativeTarget "NUSMODS-API-iOS" */;
+			buildPhases = (
+				98FB6C9A1A2AFF8F00F23E25 /* Sources */,
+				98FB6C9B1A2AFF8F00F23E25 /* Frameworks */,
+				98FB6C9C1A2AFF8F00F23E25 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NUSMODS-API-iOS";
+			productName = "NUSMODS-API-iOS";
+			productReference = 98FB6C9E1A2AFF8F00F23E25 /* NUSMODS-API-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		98FB6CB61A2AFF8F00F23E25 /* NUSMODS-API-iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98FB6CC41A2AFF8F00F23E25 /* Build configuration list for PBXNativeTarget "NUSMODS-API-iOSTests" */;
+			buildPhases = (
+				98FB6CB31A2AFF8F00F23E25 /* Sources */,
+				98FB6CB41A2AFF8F00F23E25 /* Frameworks */,
+				98FB6CB51A2AFF8F00F23E25 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				98FB6CB91A2AFF8F00F23E25 /* PBXTargetDependency */,
+			);
+			name = "NUSMODS-API-iOSTests";
+			productName = "NUSMODS-API-iOSTests";
+			productReference = 98FB6CB71A2AFF8F00F23E25 /* NUSMODS-API-iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		98FB6C961A2AFF8F00F23E25 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Jiang Sheng";
+				TargetAttributes = {
+					98FB6C9D1A2AFF8F00F23E25 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					98FB6CB61A2AFF8F00F23E25 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 98FB6C9D1A2AFF8F00F23E25;
+					};
+				};
+			};
+			buildConfigurationList = 98FB6C991A2AFF8F00F23E25 /* Build configuration list for PBXProject "NUSMODS-API" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 98FB6C951A2AFF8F00F23E25;
+			productRefGroup = 98FB6C9F1A2AFF8F00F23E25 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				98FB6C9D1A2AFF8F00F23E25 /* NUSMODS-API-iOS */,
+				98FB6CB61A2AFF8F00F23E25 /* NUSMODS-API-iOSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		98FB6C9C1A2AFF8F00F23E25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98FB6CAD1A2AFF8F00F23E25 /* Main.storyboard in Resources */,
+				98FB6CB21A2AFF8F00F23E25 /* LaunchScreen.xib in Resources */,
+				98FB6CAF1A2AFF8F00F23E25 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98FB6CB51A2AFF8F00F23E25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		98FB6C9A1A2AFF8F00F23E25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98FB6CAA1A2AFF8F00F23E25 /* ViewController.m in Sources */,
+				98FB6CA71A2AFF8F00F23E25 /* AppDelegate.m in Sources */,
+				98FB6CA41A2AFF8F00F23E25 /* main.m in Sources */,
+				98FB6CCF1A2B005B00F23E25 /* NUSMEngine.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98FB6CB31A2AFF8F00F23E25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98FB6CBE1A2AFF8F00F23E25 /* NUSMODS_API_iOSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		98FB6CB91A2AFF8F00F23E25 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 98FB6C9D1A2AFF8F00F23E25 /* NUSMODS-API-iOS */;
+			targetProxy = 98FB6CB81A2AFF8F00F23E25 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		98FB6CAB1A2AFF8F00F23E25 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				98FB6CAC1A2AFF8F00F23E25 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		98FB6CB01A2AFF8F00F23E25 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				98FB6CB11A2AFF8F00F23E25 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		98FB6CBF1A2AFF8F00F23E25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		98FB6CC01A2AFF8F00F23E25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		98FB6CC21A2AFF8F00F23E25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "NUSMODS-API-iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		98FB6CC31A2AFF8F00F23E25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "NUSMODS-API-iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		98FB6CC51A2AFF8F00F23E25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "NUSMODS-API-iOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NUSMODS-API-iOS.app/NUSMODS-API-iOS";
+			};
+			name = Debug;
+		};
+		98FB6CC61A2AFF8F00F23E25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "NUSMODS-API-iOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NUSMODS-API-iOS.app/NUSMODS-API-iOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		98FB6C991A2AFF8F00F23E25 /* Build configuration list for PBXProject "NUSMODS-API" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98FB6CBF1A2AFF8F00F23E25 /* Debug */,
+				98FB6CC01A2AFF8F00F23E25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98FB6CC11A2AFF8F00F23E25 /* Build configuration list for PBXNativeTarget "NUSMODS-API-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98FB6CC21A2AFF8F00F23E25 /* Debug */,
+				98FB6CC31A2AFF8F00F23E25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		98FB6CC41A2AFF8F00F23E25 /* Build configuration list for PBXNativeTarget "NUSMODS-API-iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98FB6CC51A2AFF8F00F23E25 /* Debug */,
+				98FB6CC61A2AFF8F00F23E25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 98FB6C961A2AFF8F00F23E25 /* Project object */;
+}
